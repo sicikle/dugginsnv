@@ -39,3 +39,7 @@
 .border {
     border: 1px bisque solid;
 }
+
+img{
+    border: none;
+}
