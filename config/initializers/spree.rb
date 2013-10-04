@@ -9,7 +9,7 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   config.site_name = "Duggings Supermarket"
-  config.logo = ""
+  config.logo = "logo.gif"
   config.company = true
   config.default_country_id = 212
   config.address_requires_state = true

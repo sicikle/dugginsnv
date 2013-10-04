@@ -11,7 +11,24 @@
  *= require store/spree_fancy
 */
 
+#top-nav-bar{
+    width: 480px;
+    height: 75px;
+    padding: 0px;
+}
+
+#logo_g{
+    float: left;
+}
+
+#home-link{
+    float: left;
+}
+
+#shop-link{
+    float: left;
+}
+
 #main-nav-bar{
-	width: 800px !important;
-	float: left;
+    border-bottom: none !important;
 }

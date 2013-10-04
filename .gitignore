@@ -14,8 +14,17 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+*.iml
 
 vendor/*cache/
 *.gem
 
+*.idea/
+
 /config/database.yml
+
+.idea/.rakeTasks
+
+*.iml
+
+*.xml
