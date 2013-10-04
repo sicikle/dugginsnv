@@ -28,3 +28,7 @@ vendor/*cache/
 *.iml
 
 *.xml
+
+*.xml
+
+*.iml
