@@ -1,0 +1,14 @@
+<% address_id = address_type.chars.first %>
+<div class="inner" data-hook=<%="#{address_type}_inner" %>>
+  <% if Spree::Config[:company] %>
+      <p class="field" id=<%="#{address_id}company" %>>
+        <%= form.label :company, Spree.t(:company) %><span class="required">*</span><br />
+        <%= form.text_field :company, :class => 'required' %>
+      </p>
+  <% end %>
+
+  <p class="field" id=<%="#{address_id}phone" %>>
+    <%= form.label :phone, Spree.t(:phone) %><span class="required">*</span><br />
+    <%= form.phone_field :phone, :class => 'required' %>
+  </p>
+</div>
